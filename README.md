@@ -1,7 +1,4 @@
-# learn-go
-Learning Golang untuk Nomina VIP Indonesia
-
-# nomina-go
+# golearn
 Learning a golang to Nomina VIP Indonesia
 
 # install-go
