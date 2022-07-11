@@ -78,3 +78,4 @@ Installs the current Go release using the `msi` installer.  Manual intervention 
 This script upgrades the current Go installation to the current release using the current release's `zip` file.
 
 The contents of `$GOPATH\bin` are removed prior to upgrading Go.
+# golearn
