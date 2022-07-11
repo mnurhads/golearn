@@ -64,15 +64,3 @@ Usage: ./install_go_all [OPTIONS] versions...
   -h, --help        print help message
 
 ```
-
-## Powershell
-Powershell scripts for installing the current release and updating Go to the current release. Since these scripts are not signed, you may need to run the `Set-ExecutionPolicy` Cmdlet first.
-
-### install_go.ps1
-Installs the current Go release using the `msi` installer.  Manual intervention is necessary to complete the installation.  The default `$GOPATH` is `$HOME/Documents/code/go`.  A custom `$GOPATH` location can be set by passing the `-w` flag along with the path to use.  The `$GOPATH` directory will be created if it doesn't already exist.
-
-### upgrade_go.ps1
-This script upgrades the current Go installation to the current release using the current release's `zip` file.
-
-The contents of `$GOPATH\bin` are removed prior to upgrading Go.
-# golearn
