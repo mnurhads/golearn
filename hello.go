@@ -89,5 +89,5 @@ func main() {
 
 	arr := []int{1, 3, 5, 10, -5, -7, 22, 18, 20}
 	PanjangList(arr)
-	// test
+	
 }
