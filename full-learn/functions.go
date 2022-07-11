@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math"
+	"errors"
 )
 func avg(x float64, y float64) float64 {
 	return (x + y) / 2
@@ -16,7 +17,7 @@ func getStockPriceChange(prevPrice, currentPrice float64) (float64, float64) {
 
 func getStockPriceChangeWithError(prevPrices, currentPrices float64) (float64, float64, error) {
 	if prevPrices == 0 {
-		err := error.New("Previous price cannot be zero")
+		err := errors.New("Previous price cannot be zero")
 		return 0, 0, err
 	}
 	changes := currentPrices - prevPrices
