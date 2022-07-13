@@ -23,7 +23,7 @@ func main() {
 	fmt.Println("x = ", x)
 
 	// array values
-	a1 := [5]string{"English", "Japanese", "Spanish", "French", "Hindi"}
+	a1 := [5]string{"English", "Japan", "Spanish", "French", "Hindi"}
 	a2 := a1 // A copy of the array `a1` is assigned to `a2`
 
 	a2[1] = "German"
@@ -51,7 +51,7 @@ func main() {
 
 	// array range
 	// Iterating over an array using range form of for loop
-	daysOfWeek := [7]string{"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"}
+	daysOfWeek := [7]string{"Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggi"}
 
 	for mulai, values := range daysOfWeek {
 		fmt.Printf("Day %d of week = %s\n", mulai, values)
@@ -74,8 +74,6 @@ func main() {
 	}
 	fmt.Println(list)
 
-	// Just like 1D arrays, you don't need to initialize all the elements in a multi-dimensional array.
-	// Un-initialized array elements will be assigned the zero value of the array type
 	list_data := [3][4]float64{
 		{1, 3},
 		{4.5, -3, 7.4, 2},
