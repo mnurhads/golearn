@@ -24,7 +24,7 @@ func main() {
 
 	// array values
 	a1 := [5]string{"English", "Japan", "Spanish", "French", "Hindi"}
-	a2 := a1 // A copy of the array `a1` is assigned to `a2`
+	a2 := a1 // A copy of the array
 
 	a2[1] = "German"
 
@@ -33,7 +33,7 @@ func main() {
 
 	// array baru
 	// Iterating over and Array and printing its elements
-	names := [3]string{"Mark Zuckerberg", "Bill Gates", "Larrt Page"}
+	names := [3]string{"Mark Zuckerberg", "Bill Gates", "Larry Page"}
 
 	for i := 0; i < len(names); i++ {
 		fmt.Println(names[i])
