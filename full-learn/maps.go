@@ -63,7 +63,7 @@ func main() {
 	// map exist
 	fmt.Println("----------------------------------")
 	var employees = map[int]string{
-		1001: "Muhammad",
+		1001: "Muhammad", 
 		1002: "Nur",
 		1003: "Hadi",
 	}
